@@ -55,7 +55,7 @@ function Header() {
     <header className=" bg-white text-coolGray-800   text-black w-full fixed z-10 text-lg " style={{ boxShadow: "2px 2px 8px rgba(0,0,0,0.1)" }}>
       <div className="container flex justify-between h-16 mx-auto">
         <NavLink to="/" rel="noopener noreferrer" aria-label="Back to homepage" className="flex items-center p-2">
-          <span onClick={goToHome} >Cyber</span>
+          <span onClick={goToHome} >Movies</span>
         </NavLink>
         <ul className="items-stretch hidden space-x-3 lg:flex">
           <li className="flex">
